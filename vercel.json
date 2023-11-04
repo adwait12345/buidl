@@ -10,10 +10,7 @@
     {
       "src": "/(.*)",
       "dest": "index.js"
-    }  ,
-      {
-      "src": "/user/(.*)",
-      "dest": "index.js"
-    }
+    }  
+
   ]
 }
