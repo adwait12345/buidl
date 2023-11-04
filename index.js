@@ -8,7 +8,7 @@ dotenv.config();
 
 // Connect DB
 mongoose
-  .connect(process.env.MONGO_URI, {
+  .connect("mongodb+srv://advtbokde:pQCTI3wlYEn4dAJV@cluster0.paui8l2.mongodb.net/?retryWrites=true&w=majority", {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false,
